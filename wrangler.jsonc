@@ -4,13 +4,8 @@
   "main": "worker/index.ts",
   "compatibility_date": "2026-07-26",
   "compatibility_flags": ["nodejs_compat"],
-  "workers_dev": false,
-  "routes": [
-    {
-      "pattern": "storyset-mcp.engdawood.com",
-      "custom_domain": true
-    }
-  ],
+  "workers_dev": true,
+
   "durable_objects": {
     "bindings": [
       {
